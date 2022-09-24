@@ -6,7 +6,7 @@ import Download from './Download.vue';
 
 <template>
   <h2
-    class="text-xl font-bold text-gray-900 before:inline-block before:h-3 before:w-6 before:rounded-full before:bg-gray-700"
+    class="text-xl font-bold text-gray-900 before:inline-block before:h-3 before:w-6 before:rounded-full before:bg-indigo-500"
   >
     button sample
   </h2>

@@ -5,12 +5,13 @@
   >
     Download
     <svg
+      class="stroke-gray-50 stroke-2"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      viewBox="0 0 24 24"
       width="24"
       height="24"
-      class="stroke-gray-50 stroke-2"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
     >
       <path
         d="M16.5 12L12 16.5M12 16.5L7.5 12M12 16.5V6"

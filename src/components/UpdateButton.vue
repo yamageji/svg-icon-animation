@@ -5,12 +5,13 @@
   >
     Update
     <svg
+      class="stroke- stroke-gray-50 stroke-2"
       xmlns="http://www.w3.org/2000/svg"
+      fill="none"
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      fill="none"
-      class="stroke- stroke-gray-50 stroke-2"
+      aria-hidden="true"
     >
       <path
         d="M17 9.3466L21.0154 9.34838V9.3466M4.03076 9.86481C5.21003 5.46371 9.73381 2.85191 14.1349 4.03118C15.5867 4.42017 16.8437 5.17309 17.8343 6.16547L21.0154 9.3466M21.0154 5.5V9.3466"

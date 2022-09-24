@@ -5,12 +5,13 @@
   >
     MENU
     <svg
+      class="stroke-gray-50 stroke-2"
       xmlns="http://www.w3.org/2000/svg"
+      fill="none"
       width="24"
       height="24"
       viewBox="0 0 24 24"
-      fill="none"
-      class="stroke-gray-50 stroke-2"
+      aria-hidden="true"
     >
       <line x1="2" y1="5" x2="22" y2="5" />
       <line
