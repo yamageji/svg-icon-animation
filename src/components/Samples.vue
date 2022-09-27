@@ -2,6 +2,12 @@
 import MenuButton from './MenuButton.vue';
 import UpdateButton from './UpdateButton.vue';
 import Download from './Download.vue';
+import BaseButton from './BaseButton.vue';
+import ReadMoreButton from './ReadMoreButton.vue';
+
+const menuEvent = () => console.log('menu!');
+const updateEvent = () => console.log('update!');
+const downloadEvent = () => console.log('download!');
 </script>
 
 <template>
@@ -11,17 +17,29 @@ import Download from './Download.vue';
     button sample
   </h2>
 
-  <div class="mt-2 flex flex-col gap-2">
+  <div class="justify mt-2 flex flex-col gap-2">
     <div class="mt-4">
-      <MenuButton />
+      <ReadMoreButton />
+    </div>
+    <div class="mt-4">
+      <BaseButton @click="menuEvent">
+        MENU
+        <MenuButton />
+      </BaseButton>
     </div>
 
     <div class="mt-4">
-      <UpdateButton />
+      <BaseButton @click="updateEvent">
+        Update
+        <UpdateButton />
+      </BaseButton>
     </div>
 
     <div class="mt-4">
-      <Download />
+      <BaseButton @click="downloadEvent">
+        Download
+        <Download />
+      </BaseButton>
     </div>
   </div>
 </template>
